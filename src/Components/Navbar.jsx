@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="col-md-6">
             <ul className="nav justify-content-center">
               <li className="nav-item">
-                <Link className="nav-link" to="/index">
+                <Link className="nav-link" to="/">
                   About
                 </Link>
               </li>
