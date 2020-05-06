@@ -1,0 +1,149 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/light-texture-background-of-spots-halftone-picture-id963927280?k=6&m=963927280&s=170667a&w=0&h=QacyHjiUjuYhN0Z35RxHdRv5tNAo73fMeGKVabmx3Vo=");
+  }
+
+a{
+    color: gray;
+}
+img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: rgb(0, 89, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+li{
+    line-height: 2rem;
+}
+
+nav{
+    background-color: rgb(92, 92, 92);
+}
+
+#profile_pic{
+    width: 30%;
+}
+
+.white-bg{
+    background-color: rgb(255, 255, 255);
+}
+
+.teal-bg{
+    background-color: rgb(0, 89, 255);
+}
+
+.padding-to-zero{
+    padding: 0px;
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav{
+    margin-top: 6px;
+}
+
+.nav-link{
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 89, 255)b3;
+    text-decoration: underline;
+}
+
+.portfolio-img{
+    width: 329px;
+    padding-right: 0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 329px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .repo-link1{
+    vertical-align: middle; 
+    text-align: center;
+  }
+  .repo-link2{
+    vertical-align: middle; 
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .repo-link3{
+    vertical-align: middle; 
+    text-align: center;
+    margin-top: 1rem;
+  }
+.repo-link4{
+  vertical-align: middle; 
+  text-align: center;
+  margin-top: 6em;
+}
+
+  .btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:  rgb(0, 89, 255);
+    border-color: rgb(0, 89, 255);
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 89, 255);
+    border-color: rgb(0, 89, 255);
+}
+
+.border-bottom {
+    border-bottom: 2px solid rgb(0, 89, 255)!important;
+}
+  
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    background-color: rgb(92, 92, 92);
+    color: lightgray;
+    font-size: 12px;
+    border-top:  5px solid rgb(0, 89, 255);
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    #profile_pic{
+      width: 100%;
+      float: none;
+      margin-left: .7rem;
+    }
+  }
