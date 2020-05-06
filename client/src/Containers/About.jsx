@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import profilePic from "../images/profile_pic.jpg"
 
 class SigninContainer extends Component {
   render() {
@@ -12,7 +13,7 @@ class SigninContainer extends Component {
         <div class="row">
           <div class="col">
             <img
-              src="assets/profile_pic.jpg"
+              src={profilePic}
               class="float-left"
               id="profile_pic"
               alt="David Rospond"
