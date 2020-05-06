@@ -1,7 +1,7 @@
 import React from "react";
-import CodeQuiz from "../images/CodeQuiz.PNG"
+import "./Project.css"
 
-const Project = (props) => {
+const Project = ({imageSource, title, repoLink,deployedLink}) => {
   return (
     // <div class="col-md-6 card">
     //   <a
@@ -20,11 +20,11 @@ const Project = (props) => {
     //     <p>Repository Link</p>
     //   </a>
     // </div>
-    <div class="card text-center" style={{width: "18rem"}}>
-        <img src={CodeQuiz} class="card-img-top" alt="..."/>
-        <div class="card-body">
-            <h5 class="card-title">{props.title}</h5>
-            <a href="/portfolio">Repository</a>
+    <div className="card text-center" style={{width: "18rem"}}>
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer"><img src={imageSource} className="card-img-top" alt="..."/></a>
+        <div className="card-body">
+            <h5 className="card-title">{title}</h5>
+            <a href={repoLink} target="_blank" rel="noopener noreferrer">Repository</a>
         </div>
     </div>
   );

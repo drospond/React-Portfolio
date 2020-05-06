@@ -136,6 +136,10 @@ a:hover {
     border-top:  5px solid rgb(0, 89, 255);
 }
 
+.container{
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 767px) {
     #profile_pic{
       width: 100%;

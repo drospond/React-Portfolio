@@ -23,5 +23,6 @@ function App() {
     </Router>
   );
 }
+//TODO make 404 page switch and path to *
 
 export default App;

@@ -1,0 +1,18 @@
+.card{
+    margin: auto;
+    border-radius: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+.card-img-top{
+    width: 18rem;
+    border-radius: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    padding: inherit;
+}
+
+.card-img-top:hover{
+    opacity: 0.8;
+}
