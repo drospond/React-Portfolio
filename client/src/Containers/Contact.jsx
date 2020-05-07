@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import resume from "../images/Resume.pdf"
 
 class Contact extends Component {
   render() {
@@ -32,7 +33,7 @@ class Contact extends Component {
           </li>
           <li>Phone Number: (678) 343-1338</li>
           <li>
-            <a href="Resume (2).pdf" target="_blank">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
