@@ -17,7 +17,7 @@ class Portfolio extends Component {
           </div>
         </div>
         <div className="row d-flex justify-content-center">
-          <Project title="Spring Breakers" imageSource={springBreakers} repoLink="https://drospond.github.io/springBreakers/" deployedLink="https://drospond.github.io/springBreakers/"/>
+          <Project title="Spring Breakers" imageSource={springBreakers} repoLink="https://github.com/drospond/springBreakers/" deployedLink="https://drospond.github.io/springBreakers/"/>
           <Project title="Weather Dashboard" imageSource={WeatherDashboard} repoLink="https://github.com/drospond/Weather-Dashboard" deployedLink="https://drospond.github.io/Weather-Dashboard/"/>
         </div>
         <div className="row d-flex justify-content-center">
