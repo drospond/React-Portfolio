@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilePic from "../images/profile_pic.jpg"
+import profilePic from "../images/profile_pic.jpg";
 
 class SigninContainer extends Component {
   render() {
@@ -18,18 +18,17 @@ class SigninContainer extends Component {
               id="profile_pic"
               alt="David Rospond"
             />
-            {/* update to include new skills */}
             <p>
               I am a full stack web developer looking to enhance skills and
               challenge myself to become a better problem solver and leader. I
               will leverage my skills of task delegation, time management and
               product development learned as a manager in the food industry to
-              produce more award worthy products. I will earn a certificate in
-              full stack web development from Georgia Tech’s Coding Bootcamp in
-              May 2020. I have learned and demonstrated skills in HTML, CSS, and
-              Javascript to create styled, responsive web applications with high
-              functionality using tools such as jQuery and third party server
-              side APIs.
+              produce more award worthy products. In May 2020, I earned a
+              certificate in full stack web development from Georgia Tech’s
+              Coding Bootcamp. I have learned and demonstrated skills in HTML,
+              CSS, and Javascript to create styled, responsive web applications
+              with high functionality using tools such as React, jQuery, third party
+              server side APIs, MySQL, and MongoDB.
             </p>
           </div>
         </div>
