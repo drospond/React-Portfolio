@@ -32,7 +32,8 @@ nav{
 }
 
 #profile_pic{
-    width: 30%;
+    width: 90%;
+    /* margin: auto; */
 }
 
 .white-bg{
@@ -84,26 +85,6 @@ a:hover {
     padding-bottom: 15px;
   }
 
-  .repo-link1{
-    vertical-align: middle; 
-    text-align: center;
-  }
-  .repo-link2{
-    vertical-align: middle; 
-    text-align: center;
-    margin-top: 4rem;
-  }
-  .repo-link3{
-    vertical-align: middle; 
-    text-align: center;
-    margin-top: 1rem;
-  }
-.repo-link4{
-  vertical-align: middle; 
-  text-align: center;
-  margin-top: 6em;
-}
-
   .btn {
     border-radius: 0px;
 }
@@ -138,6 +119,11 @@ a:hover {
 
 .container{
     margin-bottom: 50px;
+}
+
+.prof-link{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 767px) {

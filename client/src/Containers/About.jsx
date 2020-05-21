@@ -1,23 +1,38 @@
 import React, { Component } from "react";
 import profilePic from "../images/profile_pic.jpg";
+import resume from "../images/Resume.pdf";
 
 class SigninContainer extends Component {
   render() {
     return (
-      <div class="container white-bg border">
-        <div class="row">
-          <div class="col">
-            <h3 class="border-bottom">About Me</h3>
+      <div className="container white-bg border">
+        <div className="row">
+          <div className="col">
+            <h3 className="border-bottom">About Me</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <img
-              src={profilePic}
-              class="float-left"
-              id="profile_pic"
-              alt="David Rospond"
-            />
+        <div className="row">
+          <div className="col">
+            <div className="row">
+              <div className="col">
+                <img
+                  src={profilePic}
+                  // className="float-left"
+                  id="profile_pic"
+                  alt="David Rospond"
+                />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <a href="https://www.linkedin.com/in/david-rospond-60054393/"><i className="fab fa-linkedin fa-3x prof-link"></i></a>
+                <a href="https://github.com/drospond"><i className="fab fa-github fa-3x prof-link"></i></a>
+                <a href="mailto:david.rospond@gmail.com?Subject="><i className="fas fa-envelope-square fa-3x prof-link"></i></a>
+                <a href={resume}><i className="fas fa-file fa-3x prof-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
             <p>
               I am a full stack web developer looking to enhance skills and
               challenge myself to become a better problem solver and leader. I
@@ -27,8 +42,8 @@ class SigninContainer extends Component {
               certificate in full stack web development from Georgia Tech’s
               Coding Bootcamp. I have learned and demonstrated skills in HTML,
               CSS, and Javascript to create styled, responsive web applications
-              with high functionality using tools such as React, jQuery, third party
-              server side APIs, MySQL, and MongoDB.
+              with high functionality using tools such as React, jQuery, third
+              party server side APIs, MySQL, and MongoDB.
             </p>
           </div>
         </div>
