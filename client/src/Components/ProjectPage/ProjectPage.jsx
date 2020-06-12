@@ -1,15 +1,14 @@
 import React from "react";
-import FriendlyFire from "../../images/friendlyfire.PNG";
 import "./ProjectPage.css";
 
 const ProjectPage = ({project}) => {
   return (
-    <div className="container">
+    <div className="container project-page">
       <div className="row">
-        <div className="col">
-          <img src={FriendlyFire} alt="project" className="img-thumbnail" />
+        <div className="col-sm">
+          <img src={project.img} alt="project" className="img-thumbnail" />
         </div>
-        <div className="col text-center">
+        <div className="col-sm text-center">
           <h1>{project.name}</h1>
           <p>{project.description}</p>
           <h4>Technologies:</h4>

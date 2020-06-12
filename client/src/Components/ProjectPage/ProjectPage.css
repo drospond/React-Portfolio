@@ -14,3 +14,11 @@ img{
     float: left;
     margin-right: 1.5rem;
   }
+
+  .project-page{
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+    /* border-top-color: rgb(0, 89, 255);
+    border-top-width: 2px;
+    border-top-style: solid; */
+  }

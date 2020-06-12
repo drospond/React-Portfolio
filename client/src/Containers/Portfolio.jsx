@@ -28,10 +28,12 @@ class Portfolio extends Component {
       projectSelected: true,
       project: selectedProject,
     });
-    this.divToFocus.current.scrollIntoView({ 
-      behavior: "smooth", 
-      block: "nearest"
-   })
+    setTimeout(()=>{
+      this.divToFocus.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }, 100);
   };
 
   render() {
@@ -90,11 +92,10 @@ class Portfolio extends Component {
             renderProject={this.renderProject}
           />
         </div>
-        <div ref={this.divToFocus}>
-          {this.state.projectSelected && (
-            <ProjectPage project={this.state.project} />
-          )}
-        </div>
+        {this.state.projectSelected && (
+          <ProjectPage project={this.state.project} />
+        )}
+        <div ref={this.divToFocus}></div>
       </div>
     );
   }
