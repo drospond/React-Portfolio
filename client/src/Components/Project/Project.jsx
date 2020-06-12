@@ -1,15 +1,17 @@
 import React from "react";
-import "./Project.css"
+import "./Project.css";
 
-const Project = ({imageSource, title, description, deployedLink}) => {
+const Project = ({ imageSource, title, description, deployedLink, renderProject }) => {
   return (
-    <div className="card text-center" style={{width: "18rem"}}>
-        <a href={deployedLink} target="_blank" rel="noopener noreferrer"><img src={imageSource} className="card-img-top" alt="..."/></a>
+      <div className="card text-center" style={{ width: "18rem" }} onClick={()=>renderProject(title)}>
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+          <img src={imageSource} className="card-img-top" alt="..." />
+        </a>
         <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p>{description}</p>
+          <h5 className="card-title">{title}</h5>
+          <p>{description}</p>
         </div>
-    </div>
+      </div>
   );
 };
 

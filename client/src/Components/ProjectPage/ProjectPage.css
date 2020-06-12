@@ -1,0 +1,16 @@
+img{
+    /* margin-bottom: auto; */
+    margin: auto;
+}
+
+.tech-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.tech {
+    float: left;
+    margin-right: 1.5rem;
+  }
