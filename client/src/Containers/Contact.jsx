@@ -4,7 +4,7 @@ import resume from "../images/Resume.pdf"
 class Contact extends Component {
   render() {
     return (
-      <div class="container white-bg border">
+      <div class="container white-bg border" id='Contact'>
         <div class="row">
           <div class="col">
             <h3 class="border-bottom">Contact</h3>

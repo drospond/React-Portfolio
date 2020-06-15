@@ -29,6 +29,9 @@ li{
 
 nav{
     background-color: rgb(92, 92, 92);
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 #profile_pic{
@@ -103,6 +106,8 @@ a:hover {
 
 .container{
     margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .prof-link{

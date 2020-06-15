@@ -5,7 +5,7 @@ import resume from "../images/Resume.pdf";
 class SigninContainer extends Component {
   render() {
     return (
-      <div className="container white-bg border">
+      <div className="container white-bg border" id='About'>
         <div className="row">
           <div className="col">
             <h3 className="border-bottom">About Me</h3>

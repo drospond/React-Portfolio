@@ -38,7 +38,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="container white-bg border">
+      <div className="container white-bg border" id='Portfolio'>
         <div className="row">
           <div className="col">
             <h3 className="border-bottom">Portfolio</h3>
