@@ -1,5 +1,4 @@
 img{
-    /* margin-bottom: auto; */
     margin: auto;
 }
 
@@ -18,7 +17,10 @@ img{
   .project-page{
     margin-top: 14rem;
     margin-bottom: 14rem;
-    /* border-top-color: rgb(0, 89, 255);
-    border-top-width: 2px;
-    border-top-style: solid; */
+    padding: 2rem;
   }
+
+.btn-primary{
+  border-radius: 20px;
+  margin: 1rem;
+}
