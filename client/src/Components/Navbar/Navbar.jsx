@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import $ from "jquery";
+import './Navbar.css'
 
 class Navbar extends Component {
   componentDidMount() {

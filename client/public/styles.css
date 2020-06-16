@@ -28,13 +28,6 @@ li{
     line-height: 2rem;
 }
 
-nav{
-    background-color: rgb(92, 92, 92);
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-}
-
 #profile_pic{
     width: 90%;
 }
@@ -54,19 +47,6 @@ nav{
 .h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-
-.nav{
-    margin-top: 6px;
-}
-
-.nav-link{
-    color: white;
-}
-
-a:hover {
-    color: rgb(0, 89, 255)b3;
-    text-decoration: underline;
 }
 
 .portfolio-img{

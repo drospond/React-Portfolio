@@ -1,0 +1,24 @@
+
+nav{
+    background-color: rgb(92, 92, 92);
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.nav{
+    margin-top: 6px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(78, 140, 255);
+}
+
+a:hover {
+    color: rgb(0, 89, 255)b3;
+    text-decoration: underline;
+}
