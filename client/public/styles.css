@@ -28,6 +28,11 @@ li{
     line-height: 2rem;
 }
 
+a:hover {
+    color: rgb(0, 89, 255)b3;
+    text-decoration: underline;
+}
+
 #profile_pic{
     width: 90%;
 }
