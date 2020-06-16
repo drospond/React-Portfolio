@@ -1,0 +1,23 @@
+.tool-tip {
+    visibility: hidden;
+    width: 75px;
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    bottom: -20px;
+    z-index: 1;
+  }
+
+  .tool-tip-span{
+      position: relative;
+      float: left;
+  }
+
+  .tool-tip-span:hover .tool-tip {
+    visibility: visible;
+  }

@@ -4,7 +4,7 @@ import About from "./Containers/About";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Contact from "./Containers/Contact";
 import Portfolio from "./Containers/Portfolio";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Portfolio />
         <Contact />
       </Route>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

@@ -5,6 +5,7 @@ body {
 a{
     color: gray;
 }
+
 img{
     padding-right: 20px;
     padding-bottom: 20px;
@@ -36,7 +37,6 @@ nav{
 
 #profile_pic{
     width: 90%;
-    /* margin: auto; */
 }
 
 .white-bg{
@@ -73,20 +73,6 @@ a:hover {
     width: 329px;
     padding-right: 0px;
 }
-
-.text-overlay {
-    position: absolute;
-    top: 73%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 329px;
-    background-color: rgb(0, 89, 255);
-    color: white;
-    font-size: 24px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
 
 .border-bottom {
     border-bottom: 2px solid rgb(0, 89, 255)!important;

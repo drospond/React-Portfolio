@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import profilePic from "../images/profile_pic.jpg";
 import resume from "../images/Resume.pdf";
+import './About.css'
 
 class SigninContainer extends Component {
   render() {
@@ -25,10 +26,10 @@ class SigninContainer extends Component {
             </div>
             <div className="row">
               <div className="col">
-                <a href="https://www.linkedin.com/in/david-rospond-60054393/"><i className="fab fa-linkedin fa-3x prof-link"></i></a>
-                <a href="https://github.com/drospond"><i className="fab fa-github fa-3x prof-link"></i></a>
-                <a href="mailto:david.rospond@gmail.com?Subject="><i className="fas fa-envelope-square fa-3x prof-link"></i></a>
-                <a href={resume}><i className="fas fa-file fa-3x prof-link"></i></a>
+                <span className='tool-tip-span'><div className='tool-tip'>LinkedIn</div><a href="https://www.linkedin.com/in/david-rospond-60054393/"><i className="fab fa-linkedin fa-3x prof-link"></i></a></span>
+                <div className='tool-tip-span'><div className='tool-tip'>Github</div><a href="https://github.com/drospond"><i className="fab fa-github fa-3x prof-link"></i></a></div>
+                <div className='tool-tip-span'><div className='tool-tip'>Email</div><a href="mailto:david.rospond@gmail.com?Subject="><i className="fas fa-envelope-square fa-3x prof-link"></i></a></div>
+                <span className='tool-tip-span'><div className='tool-tip'>Resume</div><a href={resume}><i className="fas fa-file fa-3x prof-link"></i></a></span>
               </div>
             </div>
           </div>
