@@ -11,6 +11,7 @@ import ProjectPage from "../Components/ProjectPage/ProjectPage";
 import projectList from "../Components/ProjectPage/ProjectInfo";
 import Skills from "./Skills/Skills";
 import $ from 'jquery';
+import './Portfolio.css';
 
 class Portfolio extends Component {
   state = {
@@ -18,7 +19,6 @@ class Portfolio extends Component {
       tech: [0, 1, 2],
     },
     projectSelected: false,
-    allProjects: projectList.map((project) => project.name),
     projectsRendered: projectList.map((project) => project.name),
   };
 
@@ -66,6 +66,12 @@ class Portfolio extends Component {
     });
   };
 
+  clearFilter = () => {
+    this.setState({
+      projectsRendered: projectList.map((project) => project.name)
+    })
+  }
+
   render() {
     return (
       <>
@@ -73,7 +79,7 @@ class Portfolio extends Component {
         <div className="container white-bg border" id="Portfolio">
           <div className="row">
             <div className="col">
-              <h3 className="border-bottom">Portfolio</h3>
+              <h3 className="border-bottom">Portfolio <button className='btn btn-primary' id='clear-filter' onClick={this.clearFilter}>Clear Filter</button></h3>
             </div>
           </div>
           <div className="row d-flex justify-content-center">
