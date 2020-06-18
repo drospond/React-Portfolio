@@ -1,0 +1,21 @@
+.skill-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #727272;
+    border-radius: 5px;
+  }
+  
+ .skill-item {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .skill-item:active{
+      background-color: red;
+  }
