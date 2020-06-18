@@ -6,6 +6,7 @@ import './Navbar.css'
 class Navbar extends Component {
   componentDidMount() {
     this.navToAbout();
+    this.navToSkills();
 		this.navToPortfolio();
 		this.navToContact();
   } 
@@ -15,6 +16,17 @@ class Navbar extends Component {
 			$("html, body").animate(
 				{
 					scrollTop: $("#About").offset().top,
+				},
+				1000
+			);
+		});
+  }
+
+  navToSkills() {
+		$("#nav-skills").click(function () {
+			$("html, body").animate(
+				{
+					scrollTop: $("#Skills").offset().top,
 				},
 				1000
 			);
@@ -59,7 +71,10 @@ class Navbar extends Component {
             <div className="col-md-6">
               <ul className="nav justify-content-center">
                 <Link className="nav-link" id='nav-about'>
-                  <li className="nav-item" onClick={this.onClick} >About</li>
+                  <li className="nav-item">About</li>
+                </Link>
+                <Link className="nav-link" id='nav-skills'>
+                  <li className="nav-item">Skills</li>
                 </Link>
                 <li className="nav-item" id='nav-portfolio'>
                   <Link className="nav-link">Portfolio</Link>

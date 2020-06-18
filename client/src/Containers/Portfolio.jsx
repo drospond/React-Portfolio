@@ -90,10 +90,6 @@ class Portfolio extends Component {
             renderProject={this.renderProject}
           />
         </div>
-        <div className="row d-flex justify-content-center">
-          
-          
-        </div>
         {this.state.projectSelected && (
           <ProjectPage project={this.state.project} />
         )}
