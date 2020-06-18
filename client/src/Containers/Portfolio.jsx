@@ -59,6 +59,13 @@ class Portfolio extends Component {
             description="The social networking app for gamers. Find friends for the games you wnat to play."
             renderProject={this.renderProject}
           />
+          <Project
+            title="Note Taker"
+            imageSource={NoteTaker}
+            repoLink="https://github.com/drospond/Note-Taker"
+            description="Create, edit, and delete notes to help you keep track of your thoughts."
+            renderProject={this.renderProject}
+          />
         </div>
         <div className="row d-flex justify-content-center">
           <Project
@@ -75,15 +82,6 @@ class Portfolio extends Component {
             description="Find the weather for any city displayed in a user friendly dashboard"
             renderProject={this.renderProject}
           />
-        </div>
-        <div className="row d-flex justify-content-center">
-          <Project
-            title="Note Taker"
-            imageSource={NoteTaker}
-            repoLink="https://github.com/drospond/Note-Taker"
-            description="Create, edit, and delete notes to help you keep track of your thoughts."
-            renderProject={this.renderProject}
-          />
           <Project
             title="Spring Breakers"
             imageSource={springBreakers}
@@ -91,6 +89,10 @@ class Portfolio extends Component {
             description="Find cheap hotels and the best eats for your next Spring Break trip."
             renderProject={this.renderProject}
           />
+        </div>
+        <div className="row d-flex justify-content-center">
+          
+          
         </div>
         {this.state.projectSelected && (
           <ProjectPage project={this.state.project} />
