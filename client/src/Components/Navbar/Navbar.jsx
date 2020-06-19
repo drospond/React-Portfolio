@@ -15,7 +15,7 @@ class Navbar extends Component {
 		$("#nav-about").click(function () {
 			$("html, body").animate(
 				{
-					scrollTop: $("#About").offset().top,
+					scrollTop: $("#About").offset().top - 40,
 				},
 				1000
 			);
@@ -26,7 +26,7 @@ class Navbar extends Component {
 		$("#nav-skills").click(function () {
 			$("html, body").animate(
 				{
-					scrollTop: $("#Skills").offset().top,
+					scrollTop: $("#Skills").offset().top - 40,
 				},
 				1000
 			);
@@ -37,7 +37,7 @@ class Navbar extends Component {
 		$("#nav-portfolio").click(function () {
 			$("html, body").animate(
 				{
-					scrollTop: $("#Portfolio").offset().top,
+					scrollTop: $("#Portfolio").offset().top - 40,
 				},
 				1000
 			);
@@ -48,7 +48,7 @@ class Navbar extends Component {
 		$("#nav-contact").click(function () {
 			$("html, body").animate(
 				{
-					scrollTop: $("#Contact").offset().top,
+					scrollTop: $("#Contact").offset().top - 40,
 				},
 				1000
 			);
