@@ -8,6 +8,7 @@ class Skills extends Component {
         <div className="row">
           <div className="col">
             <h3 className="border-bottom">Skills</h3>
+            <p>Select a skill to view relevant projects.</p>
             <ul className='skill-list'>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>React</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>jQuery</li>

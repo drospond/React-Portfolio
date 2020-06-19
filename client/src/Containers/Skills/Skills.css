@@ -14,8 +14,15 @@
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    border: blue;
+    transition: background-color 0.3s ease;
   }
 
-  .skill-item:active{
-      background-color: rgb(0, 89, 255);
-  }
+  .skill-item:hover{
+    background-color: #919191 !important;
+    cursor: pointer;
+}
+
+.skill-item:active{
+
+}

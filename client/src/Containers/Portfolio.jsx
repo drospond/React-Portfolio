@@ -64,12 +64,15 @@ class Portfolio extends Component {
     this.setState({
       projectsRendered: projectsWithSkill
     });
+    $('.skill-item').css( "background-color", "#727272" );
+    $( `li:contains(${skill})` ).css( "background-color", "rgb(0, 89, 255)" );
   };
 
   clearFilter = () => {
     this.setState({
       projectsRendered: projectList.map((project) => project.name)
     })
+    $('.skill-item').css( "background-color", "#727272" );
   }
 
   render() {
