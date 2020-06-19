@@ -65,7 +65,7 @@ class Portfolio extends Component {
       projectsRendered: projectsWithSkill
     });
     $('.skill-item').css( "background-color", "#727272" );
-    $( `li:contains(${skill})` ).css( "background-color", "rgb(0, 89, 255)" );
+    $( `.skill-item:contains(${skill})` ).css( "background-color", "rgb(0, 89, 255)" );
   };
 
   clearFilter = () => {
