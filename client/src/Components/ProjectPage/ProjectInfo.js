@@ -50,10 +50,11 @@ const steamGamesCompare = new Project(
     "CSS",
     "Bulma CSS",
     "3rd party API",
-    "Handlebars",
+    "Handlebars", 
+    "jQuery"
   ],
   "https://github.com/drospond/project-2",
-  "https://steam-comparison.herokuapp.com/",
+  "https://steam-library-comparer.herokuapp.com/",
   steamImg
 );
 
