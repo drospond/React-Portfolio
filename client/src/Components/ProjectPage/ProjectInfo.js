@@ -4,6 +4,7 @@ import noteTakerImg from "../../images/NoteTaker.PNG";
 import springBreakersImg from "../../images/SpringBreakers.PNG";
 import steamImg from "../../images/steamapp.PNG";
 import weatherImg from "../../images/WeatherDashboard.PNG";
+import simpleGamesImg from "../../images/tictactoeScreenShot.PNG"
 
 class Project {
   constructor(name, description, tech, github, deployed, img) {
@@ -94,6 +95,15 @@ const springBreakers = new Project(
   springBreakersImg
 );
 
+const simpleGames = new Project(
+  "Simple Games",
+  "Play class simple game across the internet with a friend",
+  ["JavaScript", "HTML", "CSS", "Sass", "Bootstrap CSS", "socket.io", "React", "Redux", "jsonwebtoken", "bcrypt", "Express", "Node.js", "MongoDB"],
+  "https://github.com/drospond/simple-games",
+  "https://simple-games8723.herokuapp.com/",
+  simpleGamesImg
+);
+
 let projectList = [
   friendlyFire,
   steamGamesCompare,
@@ -101,6 +111,7 @@ let projectList = [
   weatherDashboard,
   noteTaker,
   springBreakers,
+  simpleGames
 ];
 
 export default projectList;

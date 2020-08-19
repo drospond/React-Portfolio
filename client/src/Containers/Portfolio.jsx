@@ -7,6 +7,7 @@ import springBreakers from "../images/SpringBreakers.PNG";
 import steamapp from "../images/steamapp.PNG";
 import WeatherDashboard from "../images/WeatherDashboard.PNG";
 import friendyfire from "../images/friendlyfire.PNG";
+import simpleGames from "../images/tictactoeScreenShot.PNG";
 import ProjectPage from "../Components/ProjectPage/ProjectPage";
 import projectList from "../Components/ProjectPage/ProjectInfo";
 import Skills from "./Skills/Skills";
@@ -137,6 +138,15 @@ class Portfolio extends Component {
                 imageSource={springBreakers}
                 repoLink="https://github.com/drospond/springBreakers/"
                 description="Find cheap hotels and the best eats for your next Spring Break trip."
+                renderProject={this.renderProject}
+              />
+            )}
+            {this.state.projectsRendered.includes("Simple Games") && (
+              <Project
+                title="Simple Games"
+                imageSource={simpleGames}
+                repoLink="https://github.com/drospond/simple-games"
+                description="Play classic simple games across the internet with a friend."
                 renderProject={this.renderProject}
               />
             )}
