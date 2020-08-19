@@ -6,11 +6,6 @@ a{
     color: gray;
 }
 
-img{
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
 h3{
     color: rgb(0, 89, 255);
     padding-top: 20px;
@@ -35,13 +30,16 @@ a:hover {
 
 #profile_pic{
     width: 90%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .white-bg{
     background-color: rgb(255, 255, 255);
 }
 
-.teal-bg{
+.blue-bg{
     background-color: rgb(0, 89, 255);
 }
 
@@ -52,11 +50,6 @@ a:hover {
 .h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-
-.portfolio-img{
-    width: 329px;
-    padding-right: 0px;
 }
 
 .border-bottom {

@@ -61,7 +61,7 @@ class Navbar extends Component {
         <div className="container-md">
           <div className="row">
             <div className="col-md col-sm-12 padding-to-zero">
-              <nav className="navbar navbar-light teal-bg justify-content-center">
+              <nav className="navbar navbar-light blue-bg justify-content-center">
                 <span className="navbar-brand mb-0 h1 text-white">
                   David Rospond
                 </span>

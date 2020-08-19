@@ -25,7 +25,7 @@ class SigninContainer extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col">
+              <div className="col social-links">
                 <span className="tool-tip-span">
                   <div className="tool-tip">LinkedIn</div>
                   <a href="https://www.linkedin.com/in/david-rospond-60054393/">
@@ -56,7 +56,7 @@ class SigninContainer extends Component {
           <div className="col align-self-center">
             <p className="about-description">
               I am a full stack web developer and recent grad from Georgia
-              Tech's Full-Stack Web Dev Bootcamp. Eager to build and learn new
+              Tech's Full-Stack Web Dev Bootcamp. I am eager to build and learn new
               technologies. Scroll down to find out what I know and have done so
               far!
             </p>
