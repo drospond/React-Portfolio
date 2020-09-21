@@ -8,6 +8,7 @@ import steamapp from "../images/steamapp.PNG";
 import WeatherDashboard from "../images/WeatherDashboard.PNG";
 import friendyfire from "../images/friendlyfire.PNG";
 import simpleGames from "../images/tictactoeScreenShot.PNG";
+import atlantaScribes from "../images/atlScribes.PNG";
 import ProjectPage from "../Components/ProjectPage/ProjectPage";
 import projectList from "../Components/ProjectPage/ProjectInfo";
 import Skills from "./Skills/Skills";
@@ -147,6 +148,15 @@ class Portfolio extends Component {
                 imageSource={simpleGames}
                 repoLink="https://github.com/drospond/simple-games"
                 description="Play classic simple games across the internet with a friend."
+                renderProject={this.renderProject}
+              />
+            )}
+            {this.state.projectsRendered.includes("Atlanta Scribes") && (
+              <Project
+                title="Atlanta Scribes"
+                imageSource={atlantaScribes}
+                repoLink="https://www.atlscribes.org/"
+                description="Webiste and tool to assist in transcribing and analyzing Atlanta City Council public comment."
                 renderProject={this.renderProject}
               />
             )}

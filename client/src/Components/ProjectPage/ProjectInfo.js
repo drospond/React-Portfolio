@@ -4,7 +4,8 @@ import noteTakerImg from "../../images/NoteTaker.PNG";
 import springBreakersImg from "../../images/SpringBreakers.PNG";
 import steamImg from "../../images/steamapp.PNG";
 import weatherImg from "../../images/WeatherDashboard.PNG";
-import simpleGamesImg from "../../images/tictactoeScreenShot.PNG"
+import simpleGamesImg from "../../images/tictactoeScreenShot.PNG";
+import atlantaScribes from "../../images/atlScribes.PNG";
 
 class Project {
   constructor(name, description, tech, github, deployed, img) {
@@ -104,6 +105,15 @@ const simpleGames = new Project(
   simpleGamesImg
 );
 
+const atlScribes = new Project(
+  "Atlanta Scribes",
+  "Volunteer project through Code for Atlanta. I helped make the website in Wordpress with Beaver Builder. I also helped make a cutom plugin that allows volunteers to help tag and correct transcriptions of public comment voicemails.",
+  ["Wordpress", "HTML", "CSS", "PHP", "DynamoDB"],
+  "https://www.atlscribes.org/",
+  "https://www.atlscribes.org/",
+  atlantaScribes
+);
+
 let projectList = [
   friendlyFire,
   steamGamesCompare,
@@ -111,7 +121,8 @@ let projectList = [
   weatherDashboard,
   noteTaker,
   springBreakers,
-  simpleGames
+  simpleGames,
+  atlScribes
 ];
 
 export default projectList;
