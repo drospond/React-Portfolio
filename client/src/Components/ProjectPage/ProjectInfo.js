@@ -41,7 +41,7 @@ const friendlyFire = new Project(
 
 const steamGamesCompare = new Project(
   "Steam Games Compare",
-  "Enter any Steam user's vanity URL to discover their games. Enter your vanity URL and another user's to discover the games you have in common. Fully Responsive. Uses the Steam API for game info.",
+  "Enter any Steam user's vanity URL to discover their games. Enter a group of users' vanity URLs to discover the games they have in common. Fully Responsive. Uses the Steam API for game info. The originall app was made with Handlebars, jQuery and Bulma CSS and can be found at https://github.com/drospond/steam-library-comparer. It has since been remade and revamped using React.js and Bootstrap.",
   [
     "JavaScript",
     "MySQL",
@@ -50,13 +50,13 @@ const steamGamesCompare = new Project(
     "Express",
     "HTML",
     "CSS",
-    "Bulma CSS",
+    "Bootstrap",
     "3rd party API",
-    "Handlebars", 
+    "React",
     "jQuery"
   ],
-  "https://github.com/drospond/project-2",
-  "https://steam-library-comparer.herokuapp.com/",
+  "https://github.com/drospond/games-comparison",
+  "https://comparegameslibrary.herokuapp.com/",
   steamImg
 );
 
