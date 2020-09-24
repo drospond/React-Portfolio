@@ -25,7 +25,6 @@ class Skills extends Component {
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>3rd party API</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>jsonwebtoken</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>bcrypt</li>
-                <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>Handlebars</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>socket.io</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>Wordpress</li>
                 <li className='skill-item' onClick={(event) => this.props.filterBySkill(event)}>PHP</li>
